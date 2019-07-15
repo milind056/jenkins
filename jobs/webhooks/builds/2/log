@@ -1,0 +1,18 @@
+Started by GitHub push by milind056
+Running as SYSTEM
+Building remotely on [8mha:////4M8gB6+2d+7Cn0/cmZR8wj3zygSEBqTB/BqqfGdYFi73AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/eKcxLJUAEnZB8bEAAAA[0mslave (1) in workspace /home/ec2-user/workspace/webhooks
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/milind056/git-practice.git # timeout=10
+Fetching upstream changes from https://github.com/milind056/git-practice.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/milind056/git-practice.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 9cb1220e13d9f99bf3cf5ecc5c1724222f1a4de2 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9cb1220e13d9f99bf3cf5ecc5c1724222f1a4de2
+Commit message: "Create hook2"
+ > git rev-list --no-walk 647679982dfd08592fdbc68085b84bea41b86468 # timeout=10
+Finished: SUCCESS

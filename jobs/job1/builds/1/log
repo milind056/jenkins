@@ -1,0 +1,26 @@
+Started by user [8mha:////4CdBaKsUc/h4JvIP6kjHv8KL9Vd73xnxIj5qIVdOBijfAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mankit
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/job1
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/milind056/git-practice.git
+ > git init /var/lib/jenkins/workspace/job1 # timeout=10
+Fetching upstream changes from https://github.com/milind056/git-practice.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/milind056/git-practice.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/milind056/git-practice.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/milind056/git-practice.git # timeout=10
+Fetching upstream changes from https://github.com/milind056/git-practice.git
+ > git fetch --tags --progress https://github.com/milind056/git-practice.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 76760464b447aaaab0fe7b5c5c8f6c68e4d422ac (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 76760464b447aaaab0fe7b5c5c8f6c68e4d422ac
+Commit message: "adding exe"
+First time build. Skipping changelog.
+[job1] $ /bin/sh -xe /tmp/jenkins1891357680011676145.sh
++ make
+gcc main.c gre.c fec.c -o ABC.exe
+Finished: SUCCESS
